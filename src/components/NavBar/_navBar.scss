@@ -1,0 +1,10 @@
+.nav_bar {
+  display: flex;
+  color: $whiteColor;
+  padding: 0 5rem ;
+  margin: 0;
+  background-color: $primaryColor;
+  h1 {
+    font-size: $FontSize_xl;
+  }
+}

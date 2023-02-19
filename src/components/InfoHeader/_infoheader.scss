@@ -1,0 +1,29 @@
+.info_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  margin: auto;
+}
+.card_info {
+  background-color: $primaryColor;
+  border: solid 0.1rem gainsboro;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  min-width: 35rem;
+  border-radius: 2.5rem;
+  font-size: $FontSize_m;
+  text-align: center;
+}
+.img_header {
+  max-width: 15rem;
+  min-height: 15rem;
+  border-radius: 50%;
+  border: solid $primaryColor 0.3rem;
+  position: relative;
+  top: -8rem;
+}
