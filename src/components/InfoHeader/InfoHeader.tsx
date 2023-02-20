@@ -1,7 +1,6 @@
 import photo from "../../assets/yo.jpg";
-import gitHubIcon from "../../assets/icons/githubIcon.png";
-import linkedinIcon from "../../assets/icons/linkedinIcon.png";
-import mailIcon from "../../assets/icons/emailIcon.png";
+import { IconSocialSection } from "../iconSocialSeccion/IconSocialSection";
+
 
 export const InfoHeader = () => {
 	return (
@@ -15,32 +14,12 @@ export const InfoHeader = () => {
 				<h2>- Computer Engineer</h2>
 				<h2>- Frontend Developer</h2>
 			</div>
-			<div className="icons_section">
-				<button className="button_icons">
-					<img src={gitHubIcon} alt="github logo"/>
-				</button>
-
-				<button className="button_icons">
-					<img
-					 style={{maxWidth: '45px',maxHeight: '45px' }}
-						src={linkedinIcon}
-						alt="linkedin logo"
-					/>
-				</button>
-
-				<button className="button_icons">
-					<img src={mailIcon} alt="mail logo" />
-				</button>
-			</div>
+			<IconSocialSection />
 
 			<div className="buttons_section">
-				<button
-				className="secundary_btn"
-				>Contact</button>
+				<button className="secundary_btn">Contact</button>
 
-				<button
-				className="primary_btn"
-				>Download CV</button>
+				<button className="primary_btn">Download CV</button>
 			</div>
 		</div>
 	);
