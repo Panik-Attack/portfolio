@@ -1,10 +1,55 @@
+.nav_bar-container {
+	align-items: center;
+	display: flex;
+	color: $whiteColor;
+	justify-content: space-around;
+	margin: 0;
+	background-color: $primaryColor;
+	h1 {
+		font-size: $FontSize_xl;
+		letter-spacing: 0.3rem;
+	}
+}
+
 .nav_bar {
-  display: flex;
-  color: $whiteColor;
-  padding: 0 5rem ;
-  margin: 0;
-  background-color: $primaryColor;
-  h1 {
-    font-size: $FontSize_xl;
-  }
+	display: flex;
+}
+
+.menu_desktop {
+	display: none;
+}
+
+.menu_movile {
+	align-items: center;
+	display: flex;
+	width: auto;
+}
+
+@media (min-width: 576px) {
+	.menu_desktop {
+		display: flex;
+	}
+
+	.menu_movile {
+		display: none;
+	}
+}
+
+// burger menu
+
+.burger_menu {
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+	min-width: 2.5rem;
+	min-height: 2rem;
+	flex-direction: column;
+	justify-content: space-between;
+	span {
+		border-radius: 5px;
+		background-color: $whiteColor;
+		width: 100%;
+		height: 0.2rem;
+		transition: all 300ms ease-out;
+	}
 }

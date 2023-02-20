@@ -1,25 +1,47 @@
-import photo from '../../assets/yo.jpg'
+import photo from "../../assets/yo.jpg";
+import gitHubIcon from "../../assets/icons/githubIcon.png";
+import linkedinIcon from "../../assets/icons/linkedinIcon.png";
+import mailIcon from "../../assets/icons/emailIcon.png";
 
 export const InfoHeader = () => {
-  return (
-    <div className='info_header'>
-      <div className='card_info'>
+	return (
+		<div className="info_header">
+			<img className="img_header" src={photo} alt="eduardo photo" />
+			<div className="info_section">
+				<h1>
+					Eduardo Javier <br />
+					Garcia Alfonso
+				</h1>
+				<h2>- Computer Engineer</h2>
+				<h2>- Frontend Developer</h2>
+			</div>
+			<div className="icons_section">
+				<button className="button_icons">
+					<img src={gitHubIcon} alt="github logo"/>
+				</button>
 
-        <img className='img_header' src={photo} alt='eduardo photo' />
-        <h2>
+				<button className="button_icons">
+					<img
+					 style={{maxWidth: '45px',maxHeight: '45px' }}
+						src={linkedinIcon}
+						alt="linkedin logo"
+					/>
+				</button>
 
-          Eduardo Javier Garcia Alfonso
+				<button className="button_icons">
+					<img src={mailIcon} alt="mail logo" />
+				</button>
+			</div>
 
-        </h2>
-        <br />
-        <p>
-          <b> Frontend Developer </b>
-        </p>
-      </div>
+			<div className="buttons_section">
+				<button
+				className="secundary_btn"
+				>Contact</button>
 
-      <div>
-        iconos
-      </div>
-    </div>
-  )
-}
+				<button
+				className="primary_btn"
+				>Download CV</button>
+			</div>
+		</div>
+	);
+};

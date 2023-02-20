@@ -1,6 +1,17 @@
+
 .header {
   // background-color: $primaryColor;
   display: flex;
   height: 100vh;
   flex-direction: column;
+}
+.img_background {
+	background-image: url(/src/assets/bacImage.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+	filter: blur(.5rem);
+	z-index: -1;
+	height: 100%;
+	width: 100%;
 }
