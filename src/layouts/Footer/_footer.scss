@@ -1,0 +1,34 @@
+.footer_container {
+  display: flex;
+  background-color: $primaryColor;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  border-top:solid 0.1rem $grayColor;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background-color: $primaryColor;
+  padding: 5rem;
+  width: 100%;
+  .tittle {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .footer .icons_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .footer .tittle {
+    margin-top:0;
+    width: 30rem;
+
+  }
+  .tittle_container{
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -12,8 +12,8 @@ body {
 	background-color: $whiteColor;
 	border: solid 0.1rem $whiteColor;
 	border-radius: 3rem;
-	font-size: $FontSize_m;
-	padding: 0.5rem 1rem;
+	font-size: $FontSize_l;
+	padding: 0.7rem 1rem;
 	font-weight: 500;
 	&:hover {
 		color: $whiteColor;
@@ -23,15 +23,16 @@ body {
 		transition: 0.3s;
 		cursor: pointer;
 	}
+
 }
 
 .secundary_btn {
-	padding: 0.5rem 1rem;
+	padding: 0.7rem 1rem;
 	color: $whiteColor;
 	background-color: $secundaryColor;
 	border: solid 0.1rem $secundaryColor;
 	border-radius: 3rem;
-	font-size: $FontSize_m;
+	font-size: $FontSize_l;
 	&:hover {
 		cursor: pointer;
 		color: $secundaryColor;
@@ -40,4 +41,65 @@ body {
 		font-style: italic;
 		transition: 0.3s;
 	}
+
+}
+
+.shadow_btn {
+	display: flex;
+	justify-content: center;
+	padding: 0.7rem 1rem;
+	color: $whiteColor;
+	background:none;
+	border: none;
+	border-radius: 50%;
+	font-size: $FontSize_l;
+	&:hover {
+		cursor: pointer;
+		color: $secundaryColor;
+		background-color: $secundaryColor;
+		box-shadow: 0 0 2rem $whiteColor;
+		transition: 0.3s;
+	}
+
+}
+
+.generic_section-container {
+  display: flex;
+  align-items: center;
+  background-color: $primaryColor;
+  flex-direction: column;
+  padding: 3rem;
+  margin: 0;
+  border: none;
+}
+.generic_section-container-transparent {
+  background-color: $primaryColor;
+	position: relative;
+	z-index: -10;
+	display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  margin: 0;
+  border: none;
+}
+.section {
+  border: solid 0.1rem $grayColor;
+  box-shadow: 0 0 1rem $secundaryColor;
+  border-radius: 3rem;
+  background-color: $secundaryColor;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 65rem;
+  margin: 0;
+
+  h1 {
+    color: $whiteColor;
+  }
+  p {
+    color: $whiteColor;
+    font-size: $FontSize_m;
+  }
 }

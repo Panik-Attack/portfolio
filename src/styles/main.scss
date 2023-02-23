@@ -1,5 +1,11 @@
 @import './vars';
 @import './global';
-@import '../layouts/Header/header';
+@import '../components/Tittle/tittle';
 @import '../components/NavBar/navBar';
 @import '../components/InfoHeader/infoheader';
+@import '../components/BackgroundAnimation/backgroundAnimation';
+@import '../components/SkillList/skillList';
+@import '../components/ButtonToTop/buttonToUp';
+@import '../layouts/Header/header';
+@import '../layouts/SkillsSection/skillsSection';
+@import '../layouts/Footer/footer';

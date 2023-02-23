@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  li {margin-bottom: 2rem;}
+  li img {
+    max-width: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .list {
+    list-style: none;
+    li {margin-bottom: 4rem;}
+    li img {
+      max-width: 8rem;
+    }
+  }
+}
