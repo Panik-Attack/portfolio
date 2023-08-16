@@ -1,0 +1,15 @@
+{
+    "hello":"Hi, I'm Eduardo Javier",
+    
+    "about":"Frontend developer trained to create user interfaces on customer request, with experience in JavaScript, TypeScript, HTML, CSS, React and Taildwind. I like to experiment with new technologies. Teamwork, proactivity, adaptability, empathy, communication are other of the characteristics that I present",
+
+    "age": {
+            "firstText": "YEARS",
+            "secondText": "OLD"
+        },
+
+    "experience": {
+        "firstText": "YEARS OF",
+        "secondText": "EXPERIENCE"
+    }   
+}

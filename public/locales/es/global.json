@@ -1,0 +1,15 @@
+{
+    "hello":"Hola, soy Eduardo Javier",
+    
+    "about":"Desarrollador frontend capacitado para crear interfaces de usuario a pedido del cliente, con experiencia en JavaScript, TypeScript, HTML, CSS, React y Taildwind. Me gusta experimentar con nuevas tecnologías. Trabajo en equipo, proactividad, adaptablilidad, empatía, comunicacion son otras de las caracteristicas que presento.",
+
+    "age":{
+            "firstText": "EDAD",
+            "secondText": "AÑOS"
+        },
+
+    "experience":{
+        "firstText": "AÑOS DE",
+        "secondText": "EXPERIENCIA"
+    }   
+}
