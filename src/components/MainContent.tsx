@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next"
 
 export const MainContent = () => {
   
-  const { t, i18n} = useTranslation(["global"])
+  const { t } = useTranslation(["global"])
 
   const hello = t("hello")
   const about = t("about")

@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next"
 
 export const AgeContent = () => {
   
-  const { t, i18n} = useTranslation(["global"])
+  const { t } = useTranslation(["global"])
   
   const firstText = t("age.firstText")
   const secondText = t("age.secondText")
